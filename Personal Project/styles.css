@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;  
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;    
+}
+nav ul li a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+.title{
+    font-size: 50px;
+    margin: 20px;
+    text-decoration: none;
+    color:orange;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+    font-family: cursive;
+}
+.btn{
+    background-color:orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.box1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.box2{
+    background-color: blue;
+    width: 200px;
+    height: 200px;  
+}
+
+.box3{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    gap: 40px;
+}
+
+.box4{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.box5{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.box6{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+}
+
+.box6{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+.box7{
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+}
+
+.box8{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+}
+
+.box9{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
+
+.container2{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
